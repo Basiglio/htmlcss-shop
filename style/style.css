@@ -29,7 +29,7 @@ hr {
 .container_child {
   width: 300px;
   height: 350px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -37,12 +37,13 @@ hr {
 .discount {
   width: 50px;
   height: 25px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   right: 0%;
   top:0%;
   text-align: center;
   line-height: 150%;
+  border-radius: 50%;
 }
 
 #child_1>.discount {
@@ -55,10 +56,14 @@ hr {
 #child_3>.discount {
   background-color: yellow;
 }
-#child_1 {
-  background-image: url("../img/pd1.jpg");
-  background-repeat: no-repeat;
+
+.photo {
+
 }
+/* #child_1 {
+  background-image: url("../img/pd1.jpg");
+  background-repeat: no-repeat; */
+/* }
 #child_2 {
   background-image: url("../img/pd3.jpg");
   background-repeat: no-repeat;
@@ -66,7 +71,7 @@ hr {
 }#child_3 {
   background-image: url("../img/pd2.jpg");
   background-repeat: no-repeat;
-}
+} */
 /* /contenitori figli */
 /* cuore */
 .heart {
