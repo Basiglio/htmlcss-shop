@@ -68,6 +68,7 @@ strong {
   background-repeat: no-repeat;
 }
 
+/* cuore cliccabile */
 .heart:hover{
   color: red;
 
