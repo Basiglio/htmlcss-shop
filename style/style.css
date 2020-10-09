@@ -24,8 +24,6 @@ hr {
   margin-left: 100px;
 }
 
-.conteiner_father:hover{}
-
 .container_child {
   width: 300px;
   height: 350px;
@@ -53,12 +51,6 @@ hr {
   background-color: yellow;
 }
 
-.heart {
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-}
-
 strong {
   text-align: center;
 
@@ -77,4 +69,15 @@ strong {
   background-repeat: no-repeat;
 }
 
-/* cuore cliccabile */
+/* cuore */
+.heart {
+  color: tomato;
+  font-size: 50px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  display: none;
+}
+.container_child:hover .heart {
+  display: block;
+}
