@@ -1,0 +1,48 @@
+/* impostazioni di pagina */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:
+}
+
+/* header */
+header {
+   margin-top: 100px;
+   text-align: center;
+   color: red;
+}
+/* /header */
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* main */
+.container_father {
+  width: 900;
+  height: 500;
+  margin-left: 100px;
+}
+
+.container_child {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0%;
+  top:0%;
+}
+
+.heart {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+}
